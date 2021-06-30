@@ -1,12 +1,12 @@
-<h1><a href="https://deploy.workers.cloudflare.com/?url=https://github.com/nberlette/flareact-template&paid=true" target="_blank"><img src="https://img.shields.io/badge/Deploy-Cloudflare%20Worker-f8ae18.svg" alt="Deploy to Cloudflare Workers" /></a>  Flareact Project Template<br clear="all" /></h1>
+# Flareact Project Template
 
-Click the button above to deploy Flareact in 5 minutes or less, right from your browser.
+<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/nberlette/flareact-template&paid=true" target="_blank"><img src="https://img.shields.io/badge/Deploy-Cloudflare%20Worker-f8ae18.svg" alt="Deploy to Cloudflare Workers" /></a> &mdash; <em>Deploy to Cloudflare Workers in 5 minutes or less, right from your browser.</em>
 
 Not a fan of GUIs? You can install the official [Wrangler CLI](https://github.com/cloudflare/wrangler) and manage your Workers all from the command line.
 
 ---
+<p>
 
-<br>
 ## 1. Install Wrangler CLI and generate a project from this template
 
 Once Wrangler has installed and authenticated your account, you can now tell Wrangler to generate a new project from this template repository. `my-project` can be any name you want, and that will be the working directory that's created for your new project.
@@ -14,7 +14,7 @@ Once Wrangler has installed and authenticated your account, you can now tell Wra
 ```bash
 wrangler generate my-project https://github.com/nberlette/flareact-template
 ```
-<br>
+</p><br><p>
 
 ## 2. Add your account details to wrangler.toml
 
@@ -23,7 +23,7 @@ wrangler generate my-project https://github.com/nberlette/flareact-template
 * The `name` field will be your desired subdomain on `workers.dev` (as long as `workers_dev = true`).
 
 > You can find account_id in the sidebar of your site's Cloudflare Dashboard.
-<br>
+</p><br><p>
 
 ## 3. Start the development server
 
@@ -34,7 +34,7 @@ wrangler generate my-project https://github.com/nberlette/flareact-template
 Spool up the Wrangler Development Server and enjoy the hot reloading as you work! You can add/edit files in the `pages/` folder and watch the changes take effect in real time.
 
 > Note: don't run `wrangler dev` or it will skip the Flareact portion of the script!
-<br>
+</p><br><p>
 
 ## 4. Publish to Cloudflare Workers
 
@@ -50,7 +50,7 @@ If you'd like to fix any errors in the code prior to deploying it, just lint bef
  yarn lint:fix && yarn publish
 ```
 
-<br>
+</p>
 
 ### Acknowledgements
 
