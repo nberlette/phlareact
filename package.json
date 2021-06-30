@@ -1,41 +1,38 @@
 {
-  "private": true,
   "name": "flareact-template",
-  "version": "1.0.0",
-  "author": "Nicholas Berlette <nick@berlette.com>",
-  "description": "A template for kickstarting a Flareact project",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "A boilerplate template for your next Flareact project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "dev": "flareact dev && yarn lint",
+    "build": "yarn lint:fix && flareact build",
+    "deploy": "yarn lint:fix && flareact publish"
+  },
+  "dependencies": {
+    "flareact": "~1.2.1",
+    "react": "~17.0.0",
+    "react-dom": "~17.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nberlette/flareact-template.git"
   },
-  "keywords": [
-    "flareact",
-    "react",
-    "cloudflare",
-    "workers",
-    "template"
-  ],
+  "author": "Nicholas Berlette <nick@berlette.com>",
   "bugs": {
     "url": "https://github.com/nberlette/flareact-template/issues"
   },
-  "homepage": "https://github.com/nberlette/flareact-template/#readme",
-  "license": "MIT",
-  "main": "index.js",
-  "scripts": {
-    "start": "lint && wrangler dev"
-    "dev": "flareact dev",
-    "build": "flareact build",
-    "deploy": "flareact publish",
-    "lint": "standard && standard-markdown",
-    "lint:fix": "standard --fix && standard-markdown --fix"
-  },
-  "dependencies": {
-    "flareact": "^1.2.1",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
-  },
+  "homepage": "https://github.com/nberlette/flareact-template#readme",
   "devDependencies": {
-    "standard": "^16.0.3",
-    "standard-markdown": "^6.0.0"
-  }
+    "standard": "~16.0.3"
+  },
+  "keywords": [
+    "flareact",
+    "template",
+    "cloudflare",
+    "workers",
+    "boilerplate"
+  ]
 }
