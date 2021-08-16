@@ -1,8 +1,8 @@
 # Phlareact: Preact meets Flareact
 
-<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/nberlette/flareact-template&paid=true" target="_blank"><img src="https://img.shields.io/badge/Deploy-Cloudflare%20Worker-f8ae18.svg" alt="Deploy to Cloudflare Workers" /></a> &mdash; <em>Deploy to Cloudflare Workers in 5 minutes or less, right from your browser.</em>
+<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/nberlette/phlareact&paid=true" target="_blank"><img src="https://img.shields.io/badge/Deploy-Cloudflare%20Worker-f8ae18.svg" alt="Deploy to Cloudflare Workers" /></a> &mdash; <em>Deploy to Cloudflare Workers in 5 minutes or less.</em>
 
-Not a fan of GUIs? You can install the official [Wrangler CLI](https://github.com/cloudflare/wrangler) and manage your Workers all from the command line.
+Not a fan of GUIs? With the official [Wrangler CLI](https://github.com/cloudflare/wrangler) you can manage your Workers from the command line.
 
 ---
 
@@ -17,7 +17,7 @@ yarn global add @cloudflare/wrangler
 Once Wrangler has installed and authenticated your account, you can now tell Wrangler to generate a new project from this template repository. `my-project` can be any name you want, and that will be the working directory that's created for your new project.
 
 ```bash
-wrangler generate my-project https://github.com/nberlette/flareact-template
+wrangler generate my-project https://github.com/nberlette/phlareact
 ```
 
 <br>
