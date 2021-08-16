@@ -1,4 +1,4 @@
-# Phlareact: Preact + Flareact Template
+# Phlareact: Preact meets Flareact
 
 <a href="https://deploy.workers.cloudflare.com/?url=https://github.com/nberlette/flareact-template&paid=true" target="_blank"><img src="https://img.shields.io/badge/Deploy-Cloudflare%20Worker-f8ae18.svg" alt="Deploy to Cloudflare Workers" /></a> &mdash; <em>Deploy to Cloudflare Workers in 5 minutes or less, right from your browser.</em>
 
