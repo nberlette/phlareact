@@ -6,7 +6,13 @@ Not a fan of GUIs? You can install the official [Wrangler CLI](https://github.co
 
 ---
 
-## 1. Install Wrangler CLI and generate a project from this template
+## 1. Install Wrangler
+
+```bash
+yarn global add @cloudflare/wrangler
+```
+
+## 2. Generate a New Project
 
 Once Wrangler has installed and authenticated your account, you can now tell Wrangler to generate a new project from this template repository. `my-project` can be any name you want, and that will be the working directory that's created for your new project.
 
@@ -16,7 +22,7 @@ wrangler generate my-project https://github.com/nberlette/flareact-template
 
 <br>
 
-## 2. Add your account details to wrangler.toml
+## 3. Add `account_id` to `wrangler.toml`
 
 * Open your favorite text editor and fill in `account_id` and `name` inside `wrangler.toml`. I'm working on a helper script to eliminate this manual step from the process.
 
@@ -27,7 +33,7 @@ wrangler generate my-project https://github.com/nberlette/flareact-template
 
 <br>
 
-## 3. Start the development server
+## 4. Start development server
 
 ```bash
  cd my-project && yarn dev
@@ -39,20 +45,12 @@ Spool up the Wrangler Development Server and enjoy the hot reloading as you work
 
 <br>
 
-## 4. Publish to Cloudflare Workers
+## 5. Publish to Cloudflare Workers
 
 Once you're satisfied with your project's progress, and want to see how it performs in deployment, simply run the following command to publish your site:
 
 ```bash
  yarn publish
-```
-
-<br>
-
-If you'd like to fix any errors in the code prior to deploying it, just lint before publishing:
-
-```bash
- yarn lint:fix && yarn publish
 ```
 
 <br>
