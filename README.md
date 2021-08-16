@@ -2,7 +2,7 @@
 
 <a href="https://deploy.workers.cloudflare.com/?url=https://github.com/nberlette/phlareact&paid=true" target="_blank"><img src="https://img.shields.io/badge/Deploy-Cloudflare%20Worker-f8ae18.svg" alt="Deploy to Cloudflare Workers" /></a> &mdash; <em>Deploy to Cloudflare Workers in 5 minutes or less.</em>
 
-Not a fan of GUIs? With the official [Wrangler CLI](https://github.com/cloudflare/wrangler) you can manage your Workers from the command line.
+Not a fan of GUIs? With the [Wrangler CLI](https://github.com/cloudflare/wrangler) you can manage your Workers from the command line.
 
 ---
 
