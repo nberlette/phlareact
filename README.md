@@ -57,4 +57,4 @@ Once you're satisfied with your project's progress, and want to see how it perfo
 
 ### Acknowledgements
 
-Based on the [original Flareact Template](https://github.com/flareact/flareact-template). I just added further instructions and goodies I felt would be useful to other developers.
+Based on the [original Flareact Template](https://github.com/flareact/flareact-template). 
