@@ -1,7 +1,7 @@
 {
   "name": "phlareact",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.3.1",
   "license": "MIT",
   "readme": "https://github.com/nberlette/phlareact#readme",
   "repository": "github:nberlette/phlareact",
@@ -17,8 +17,8 @@
   "scripts": {
     "lint": "eslint ./",
     "lint:fix": "eslint --fix --ignore-pattern 'out/**' ./",
-    "dev": "yarn lint && flareact dev",
-    "build": "yarn lint:fix && flareact build",
+    "dev": "flareact dev",
+    "build": "flareact build",
     "deploy": "yarn build && flareact publish"
   },
   "dependencies": {
